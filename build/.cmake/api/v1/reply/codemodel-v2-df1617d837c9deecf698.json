@@ -1,0 +1,300 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						22
+					]
+				},
+				{
+					"build" : "tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						23
+					]
+				},
+				{
+					"build" : "fuzzing",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fuzzing",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "cJSON",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cJSON_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cJSON_test-Debug-430039feab0e115ed15c.json",
+					"name" : "cJSON_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "check::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-Debug-28a721f566a2e0dbf90b.json",
+					"name" : "check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjson::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjson-Debug-4a56037bb7ae2e11164c.json",
+					"name" : "cjson",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cjson_add::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-cjson_add-Debug-eb7217a28ef5422a73a0.json",
+					"name" : "cjson_add",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "compare_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-compare_tests-Debug-96feafd78e1a1eb6913e.json",
+					"name" : "compare_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fuzz_main::@075933eab0618b1a18f5",
+					"jsonFile" : "target-fuzz_main-Debug-e4e729af7f926958c901.json",
+					"name" : "fuzz_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "minify_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-minify_tests-Debug-cd089826e238a50f9cf5.json",
+					"name" : "minify_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "misc_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-misc_tests-Debug-c5f22c22b859fd465461.json",
+					"name" : "misc_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "parse_array::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-parse_array-Debug-5067887d4003e6209567.json",
+					"name" : "parse_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "parse_examples::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-parse_examples-Debug-7f8683f6bfc36056729a.json",
+					"name" : "parse_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "parse_hex4::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-parse_hex4-Debug-e91b4ce10147f193a6d2.json",
+					"name" : "parse_hex4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "parse_number::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-parse_number-Debug-9992e1d11e8df0f26b76.json",
+					"name" : "parse_number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "parse_object::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-parse_object-Debug-3483107cb31fde706a17.json",
+					"name" : "parse_object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "parse_string::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-parse_string-Debug-df25636f600b64de5287.json",
+					"name" : "parse_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "parse_value::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-parse_value-Debug-43c3df2be823e165695f.json",
+					"name" : "parse_value",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "parse_with_opts::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-parse_with_opts-Debug-71270fee01849d57e325.json",
+					"name" : "parse_with_opts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "print_array::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-print_array-Debug-69791d0da95a574d9462.json",
+					"name" : "print_array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "print_number::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-print_number-Debug-55dabae9edd7f0109cda.json",
+					"name" : "print_number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "print_object::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-print_object-Debug-b817bdac3aef579f9b89.json",
+					"name" : "print_object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "print_string::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-print_string-Debug-9ac2343a7659885c313b.json",
+					"name" : "print_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "print_value::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-print_value-Debug-7e74aa372d1beabd8d46.json",
+					"name" : "print_value",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "readme_examples::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-readme_examples-Debug-3f30924a520fe6a0491f.json",
+					"name" : "readme_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-fa2988e29ac937fc41aa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unity::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-unity-Debug-79edda3c9caa90c1881a.json",
+					"name" : "unity",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/PyAuth/build",
+		"source" : "/workspaces/PyAuth/cJSON"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

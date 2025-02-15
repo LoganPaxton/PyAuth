@@ -1,4 +1,4 @@
-import pyauth
+import pylockr
 
 pyauth.initialize("data.json")
 

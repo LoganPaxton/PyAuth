@@ -1,0 +1,602 @@
+The system is: Linux - 6.5.0-1025-azure - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/workspaces/PyAuth/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d522/fast && /usr/bin/make -f CMakeFiles/cmTC_9d522.dir/build.make CMakeFiles/cmTC_9d522.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d522.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_9d522.dir/testCCompiler.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9d522
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d522.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_9d522.dir/testCCompiler.c.o  -o cmTC_9d522 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_03526/fast && /usr/bin/make -f CMakeFiles/cmTC_03526.dir/build.make CMakeFiles/cmTC_03526.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -v -o CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccqMkYli.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o /tmp/ccqMkYli.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_03526
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03526.dir/link.txt --verbose=1
+/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o  -o cmTC_03526 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_03526' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBJnbIX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_03526 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_03526' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_03526/fast && /usr/bin/make -f CMakeFiles/cmTC_03526.dir/build.make CMakeFiles/cmTC_03526.dir/build]
+  ignore line: [make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccqMkYli.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o /tmp/ccqMkYli.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_03526]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03526.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v -rdynamic CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o  -o cmTC_03526 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_03526' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBJnbIX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_03526 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccBJnbIX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_03526] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_03526.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test FLAG_SUPPORTED_stdc89 succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31212/fast && /usr/bin/make -f CMakeFiles/cmTC_31212.dir/build.make CMakeFiles/cmTC_31212.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31212.dir/src.c.o
+/usr/bin/gcc   -DFLAG_SUPPORTED_stdc89   -std=c89 -o CMakeFiles/cmTC_31212.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_31212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31212.dir/link.txt --verbose=1
+/usr/bin/gcc  -DFLAG_SUPPORTED_stdc89    -rdynamic CMakeFiles/cmTC_31212.dir/src.c.o  -o cmTC_31212 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_pedantic succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62e7a/fast && /usr/bin/make -f CMakeFiles/cmTC_62e7a.dir/build.make CMakeFiles/cmTC_62e7a.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62e7a.dir/src.c.o
+/usr/bin/gcc   -std=c89 -DFLAG_SUPPORTED_pedantic   -pedantic -o CMakeFiles/cmTC_62e7a.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_62e7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62e7a.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -DFLAG_SUPPORTED_pedantic    -rdynamic CMakeFiles/cmTC_62e7a.dir/src.c.o  -o cmTC_62e7a 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wall succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca2bd/fast && /usr/bin/make -f CMakeFiles/cmTC_ca2bd.dir/build.make CMakeFiles/cmTC_ca2bd.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca2bd.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -DFLAG_SUPPORTED_Wall   -Wall -o CMakeFiles/cmTC_ca2bd.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ca2bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca2bd.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -DFLAG_SUPPORTED_Wall    -rdynamic CMakeFiles/cmTC_ca2bd.dir/src.c.o  -o cmTC_ca2bd 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wextra succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_129e7/fast && /usr/bin/make -f CMakeFiles/cmTC_129e7.dir/build.make CMakeFiles/cmTC_129e7.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_129e7.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -DFLAG_SUPPORTED_Wextra   -Wextra -o CMakeFiles/cmTC_129e7.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_129e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_129e7.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -DFLAG_SUPPORTED_Wextra    -rdynamic CMakeFiles/cmTC_129e7.dir/src.c.o  -o cmTC_129e7 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Werror succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4801c/fast && /usr/bin/make -f CMakeFiles/cmTC_4801c.dir/build.make CMakeFiles/cmTC_4801c.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4801c.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -DFLAG_SUPPORTED_Werror   -Werror -o CMakeFiles/cmTC_4801c.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4801c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4801c.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -DFLAG_SUPPORTED_Werror    -rdynamic CMakeFiles/cmTC_4801c.dir/src.c.o  -o cmTC_4801c 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wstrictprototypes succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8db22/fast && /usr/bin/make -f CMakeFiles/cmTC_8db22.dir/build.make CMakeFiles/cmTC_8db22.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8db22.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -DFLAG_SUPPORTED_Wstrictprototypes   -Wstrict-prototypes -o CMakeFiles/cmTC_8db22.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8db22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8db22.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -DFLAG_SUPPORTED_Wstrictprototypes    -rdynamic CMakeFiles/cmTC_8db22.dir/src.c.o  -o cmTC_8db22 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wwritestrings succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac7d1/fast && /usr/bin/make -f CMakeFiles/cmTC_ac7d1.dir/build.make CMakeFiles/cmTC_ac7d1.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac7d1.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -DFLAG_SUPPORTED_Wwritestrings   -Wwrite-strings -o CMakeFiles/cmTC_ac7d1.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ac7d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac7d1.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -DFLAG_SUPPORTED_Wwritestrings    -rdynamic CMakeFiles/cmTC_ac7d1.dir/src.c.o  -o cmTC_ac7d1 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wshadow succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4cf54/fast && /usr/bin/make -f CMakeFiles/cmTC_4cf54.dir/build.make CMakeFiles/cmTC_4cf54.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cf54.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -DFLAG_SUPPORTED_Wshadow   -Wshadow -o CMakeFiles/cmTC_4cf54.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4cf54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cf54.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -DFLAG_SUPPORTED_Wshadow    -rdynamic CMakeFiles/cmTC_4cf54.dir/src.c.o  -o cmTC_4cf54 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Winitself succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68372/fast && /usr/bin/make -f CMakeFiles/cmTC_68372.dir/build.make CMakeFiles/cmTC_68372.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68372.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -DFLAG_SUPPORTED_Winitself   -Winit-self -o CMakeFiles/cmTC_68372.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_68372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68372.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -DFLAG_SUPPORTED_Winitself    -rdynamic CMakeFiles/cmTC_68372.dir/src.c.o  -o cmTC_68372 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcastalign succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9e678/fast && /usr/bin/make -f CMakeFiles/cmTC_9e678.dir/build.make CMakeFiles/cmTC_9e678.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e678.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -DFLAG_SUPPORTED_Wcastalign   -Wcast-align -o CMakeFiles/cmTC_9e678.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9e678
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e678.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -DFLAG_SUPPORTED_Wcastalign    -rdynamic CMakeFiles/cmTC_9e678.dir/src.c.o  -o cmTC_9e678 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wformat2 succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_559f0/fast && /usr/bin/make -f CMakeFiles/cmTC_559f0.dir/build.make CMakeFiles/cmTC_559f0.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_559f0.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -DFLAG_SUPPORTED_Wformat2   -Wformat=2 -o CMakeFiles/cmTC_559f0.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_559f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_559f0.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -DFLAG_SUPPORTED_Wformat2    -rdynamic CMakeFiles/cmTC_559f0.dir/src.c.o  -o cmTC_559f0 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingprototypes succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_78bbd/fast && /usr/bin/make -f CMakeFiles/cmTC_78bbd.dir/build.make CMakeFiles/cmTC_78bbd.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78bbd.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -DFLAG_SUPPORTED_Wmissingprototypes   -Wmissing-prototypes -o CMakeFiles/cmTC_78bbd.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_78bbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78bbd.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -DFLAG_SUPPORTED_Wmissingprototypes    -rdynamic CMakeFiles/cmTC_78bbd.dir/src.c.o  -o cmTC_78bbd 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wstrictoverflow2 succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d2b5/fast && /usr/bin/make -f CMakeFiles/cmTC_7d2b5.dir/build.make CMakeFiles/cmTC_7d2b5.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d2b5.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -DFLAG_SUPPORTED_Wstrictoverflow2   -Wstrict-overflow=2 -o CMakeFiles/cmTC_7d2b5.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7d2b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d2b5.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -DFLAG_SUPPORTED_Wstrictoverflow2    -rdynamic CMakeFiles/cmTC_7d2b5.dir/src.c.o  -o cmTC_7d2b5 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcastqual succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98b91/fast && /usr/bin/make -f CMakeFiles/cmTC_98b91.dir/build.make CMakeFiles/cmTC_98b91.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98b91.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -DFLAG_SUPPORTED_Wcastqual   -Wcast-qual -o CMakeFiles/cmTC_98b91.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_98b91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98b91.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -DFLAG_SUPPORTED_Wcastqual    -rdynamic CMakeFiles/cmTC_98b91.dir/src.c.o  -o cmTC_98b91 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wundef succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1ee12/fast && /usr/bin/make -f CMakeFiles/cmTC_1ee12.dir/build.make CMakeFiles/cmTC_1ee12.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ee12.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -DFLAG_SUPPORTED_Wundef   -Wundef -o CMakeFiles/cmTC_1ee12.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1ee12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ee12.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -DFLAG_SUPPORTED_Wundef    -rdynamic CMakeFiles/cmTC_1ee12.dir/src.c.o  -o cmTC_1ee12 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wswitchdefault succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a3a4f/fast && /usr/bin/make -f CMakeFiles/cmTC_a3a4f.dir/build.make CMakeFiles/cmTC_a3a4f.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3a4f.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -DFLAG_SUPPORTED_Wswitchdefault   -Wswitch-default -o CMakeFiles/cmTC_a3a4f.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a3a4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3a4f.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -DFLAG_SUPPORTED_Wswitchdefault    -rdynamic CMakeFiles/cmTC_a3a4f.dir/src.c.o  -o cmTC_a3a4f 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wconversion succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0fdf4/fast && /usr/bin/make -f CMakeFiles/cmTC_0fdf4.dir/build.make CMakeFiles/cmTC_0fdf4.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fdf4.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -DFLAG_SUPPORTED_Wconversion   -Wconversion -o CMakeFiles/cmTC_0fdf4.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0fdf4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fdf4.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -DFLAG_SUPPORTED_Wconversion    -rdynamic CMakeFiles/cmTC_0fdf4.dir/src.c.o  -o cmTC_0fdf4 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wccompat succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_925a4/fast && /usr/bin/make -f CMakeFiles/cmTC_925a4.dir/build.make CMakeFiles/cmTC_925a4.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_925a4.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -DFLAG_SUPPORTED_Wccompat   -Wc++-compat -o CMakeFiles/cmTC_925a4.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_925a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_925a4.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -DFLAG_SUPPORTED_Wccompat    -rdynamic CMakeFiles/cmTC_925a4.dir/src.c.o  -o cmTC_925a4 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_fstackprotectorstrong succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68c21/fast && /usr/bin/make -f CMakeFiles/cmTC_68c21.dir/build.make CMakeFiles/cmTC_68c21.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68c21.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -DFLAG_SUPPORTED_fstackprotectorstrong   -fstack-protector-strong -o CMakeFiles/cmTC_68c21.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_68c21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68c21.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -DFLAG_SUPPORTED_fstackprotectorstrong    -rdynamic CMakeFiles/cmTC_68c21.dir/src.c.o  -o cmTC_68c21 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wdoublepromotion succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2006/fast && /usr/bin/make -f CMakeFiles/cmTC_f2006.dir/build.make CMakeFiles/cmTC_f2006.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2006.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -DFLAG_SUPPORTED_Wdoublepromotion   -Wdouble-promotion -o CMakeFiles/cmTC_f2006.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f2006
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2006.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -DFLAG_SUPPORTED_Wdoublepromotion    -rdynamic CMakeFiles/cmTC_f2006.dir/src.c.o  -o cmTC_f2006 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wparentheses succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_038a6/fast && /usr/bin/make -f CMakeFiles/cmTC_038a6.dir/build.make CMakeFiles/cmTC_038a6.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_038a6.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -DFLAG_SUPPORTED_Wparentheses   -Wparentheses -o CMakeFiles/cmTC_038a6.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_038a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_038a6.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -DFLAG_SUPPORTED_Wparentheses    -rdynamic CMakeFiles/cmTC_038a6.dir/src.c.o  -o cmTC_038a6 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wformatoverflow succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e781c/fast && /usr/bin/make -f CMakeFiles/cmTC_e781c.dir/build.make CMakeFiles/cmTC_e781c.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e781c.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -DFLAG_SUPPORTED_Wformatoverflow   -Wformat-overflow -o CMakeFiles/cmTC_e781c.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e781c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e781c.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -DFLAG_SUPPORTED_Wformatoverflow    -rdynamic CMakeFiles/cmTC_e781c.dir/src.c.o  -o cmTC_e781c 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wunusedmacros succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_403b7/fast && /usr/bin/make -f CMakeFiles/cmTC_403b7.dir/build.make CMakeFiles/cmTC_403b7.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_403b7.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -DFLAG_SUPPORTED_Wunusedmacros   -Wunused-macros -o CMakeFiles/cmTC_403b7.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_403b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_403b7.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -DFLAG_SUPPORTED_Wunusedmacros    -rdynamic CMakeFiles/cmTC_403b7.dir/src.c.o  -o cmTC_403b7 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wswitchenum succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9cc1/fast && /usr/bin/make -f CMakeFiles/cmTC_d9cc1.dir/build.make CMakeFiles/cmTC_d9cc1.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9cc1.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -DFLAG_SUPPORTED_Wswitchenum   -Wswitch-enum -o CMakeFiles/cmTC_d9cc1.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d9cc1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9cc1.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -DFLAG_SUPPORTED_Wswitchenum    -rdynamic CMakeFiles/cmTC_d9cc1.dir/src.c.o  -o cmTC_d9cc1 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_fvisibilityhidden succeeded with the following output:
+Change Dir: /workspaces/PyAuth/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6875d/fast && /usr/bin/make -f CMakeFiles/cmTC_6875d.dir/build.make CMakeFiles/cmTC_6875d.dir/build
+make[1]: Entering directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6875d.dir/src.c.o
+/usr/bin/gcc   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -DFLAG_SUPPORTED_fvisibilityhidden   -fvisibility=hidden -o CMakeFiles/cmTC_6875d.dir/src.c.o   -c /workspaces/PyAuth/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6875d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6875d.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -DFLAG_SUPPORTED_fvisibilityhidden    -rdynamic CMakeFiles/cmTC_6875d.dir/src.c.o  -o cmTC_6875d 
+make[1]: Leaving directory '/workspaces/PyAuth/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

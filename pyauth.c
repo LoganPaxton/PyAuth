@@ -191,22 +191,22 @@ PyObject* register_account(PyObject* self, PyObject *args) {
 }
 
 // Define methods for the module
-static PyMethodDef PyAuthMethods[] = {
-    {"initialize", initialize, METH_VARARGS, "Initialize a new PyAuth object."},
+static PyMethodDef PyLockrMethods[] = {
+    {"initialize", initialize, METH_VARARGS, "Initialize a new PyLockr object."},
     {"register_account", register_account, METH_VARARGS, "Create a new user account."},
     {NULL, NULL, 0, NULL}
 };
 
 // Define the module
-static struct PyModuleDef PyAuthModule = {
+static struct PyModuleDef PyLockrModule = {
     PyModuleDef_HEAD_INIT,
-    "pyauth",
+    "PyLockr",
     "A Python authentication system.",
     -1,
-    PyAuthMethods
+    PyLockrMethods
 };
 
 // Module initialization function
-PyMODINIT_FUNC PyInit_pyauth(void) {
-    return PyModule_Create(&PyAuthModule);
+PyMODINIT_FUNC PyInit_PyLockr(void) {
+    return PyModule_Create(&PyLockrModule);
 }

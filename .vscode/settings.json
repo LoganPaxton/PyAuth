@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "cjson.h": "c"
-    }
+    },
+    "cmake.sourceDirectory": "/workspaces/PyAuth/cJSON"
 }
