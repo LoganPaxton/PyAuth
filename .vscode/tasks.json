@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build pyauth",
+            "type": "shell",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-fPIC",
+                "-I/usr/include",
+                "-I/opt/conda/include",  // Include the path to OpenSSL headers
+                "-L/usr/lib/x86_64-linux-gnu",  // Library path for OpenSSL
+                "-L/opt/conda/lib",  // Include OpenSSL's library path
+                "-lssl",
+                "-lcrypto",
+                "pyauth.c",  // The C file you're building
+                "-o",
+                "pyauth.so"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Custom build task for pyauth"
+        }
+    ]
+}

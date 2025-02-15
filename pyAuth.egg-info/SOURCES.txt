@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyauth.c
+setup.py
+pyAuth.egg-info/PKG-INFO
+pyAuth.egg-info/SOURCES.txt
+pyAuth.egg-info/dependency_links.txt
+pyAuth.egg-info/top_level.txt

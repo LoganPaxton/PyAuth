@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/PyAuth/cJSON/cJSON.h
+stddef.h
+-
+
+/workspaces/PyAuth/cJSON/test.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+cJSON.h
+/workspaces/PyAuth/cJSON/cJSON.h
+
